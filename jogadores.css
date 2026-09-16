@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../img/TELA\ INICIAL.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.btn-voltar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background: #2b3a4a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    border: 2px solid #fff;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.85);
+    border: 3px solid #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 10px;
+    background: #222;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+button {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 10px;
+    background: #28a745;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #444;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.acoes {
+    display: flex;
+    gap: 6px;
+}
+
+.btn-edit {
+    background: #ffc107;
+    color: #000;
+    padding: 6px;
+    font-size: 8px;
+}
+
+.btn-del {
+    background: #dc3545;
+    padding: 6px;
+    font-size: 8px;
+}
